@@ -11,10 +11,10 @@ from pydub.silence import split_on_silence
 import librosa
 
 # Initialize OpenAI API
-openai.api_type = "azure"
-openai.api_base = "https://internshala.openai.azure.com"
-openai.api_version = "2024-08-01-preview"
-openai.api_key = "22ec84421ec24230a3638d1b51e3a7dc"
+openai.api_type = "//add your own api type"
+openai.api_base = "//add your own api base"
+openai.api_version = "//add your own api version"
+openai.api_key = "//add your own api key"
 
 def transcribe_audio(audio_file_path):
     client = speech.SpeechClient()
